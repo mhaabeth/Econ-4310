@@ -3,7 +3,7 @@
 Jupyter notebooks for [ECON4310 Macroeconomic Theory](https://www.uio.no/studier/emner/sv/oekonomi/ECON4310/) at the University of Oslo.
 
 Run them in the browser, no installation needed:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/USERNAME/econ4310/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mhaabeth/econ4310/HEAD)
 
 ## Notebooks
 
@@ -18,7 +18,7 @@ Notebooks download data directly from [Statistics Norway's API](https://www.ssb.
 ## Running locally
 
 ```bash
-git clone https://github.com/USERNAME/econ4310.git
+git clone https://github.com/mhaabeth/econ4310.git
 cd econ4310
 conda env create -f environment.yml
 conda activate econ4310
