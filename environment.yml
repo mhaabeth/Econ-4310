@@ -1,0 +1,11 @@
+name: econ4310
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - pandas
+  - matplotlib
+  - statsmodels
+  - requests
+  - jupyterlab
