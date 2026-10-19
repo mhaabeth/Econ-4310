@@ -2,8 +2,15 @@
 
 Jupyter notebooks for [ECON4310 Macroeconomic Theory](https://www.uio.no/studier/emner/sv/oekonomi/ECON4310/) at the University of Oslo.
 
-Run them in the browser, no installation needed:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mhaabeth/Econ-4310/HEAD)
+## Run in the browser
+
+Click a badge. Nothing to install.
+
+| Notebook | Colab (fast, needs a Google account) | Binder (no account, slower start) |
+|---|---|---|
+| `business_cycles.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhaabeth/Econ-4310/blob/main/business_cycles.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mhaabeth/Econ-4310/HEAD?labpath=business_cycles.ipynb) |
+
+In Colab, choose **Runtime → Run all**. Changes are not saved unless you choose **File → Save a copy in Drive**.
 
 ## Notebooks
 
