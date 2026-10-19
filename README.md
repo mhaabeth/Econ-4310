@@ -9,6 +9,7 @@ Click a badge. Nothing to install.
 | Notebook | Colab (fast, needs a Google account) | Binder (no account, slower start) |
 |---|---|---|
 | `business_cycles.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhaabeth/Econ-4310/blob/main/business_cycles.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mhaabeth/Econ-4310/HEAD?labpath=business_cycles.ipynb) |
+| `business_cycle_pca.ipynb` | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mhaabeth/Econ-4310/blob/main/business_cycle_pca.ipynb) | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mhaabeth/Econ-4310/HEAD?labpath=business_cycle_pca.ipynb) |
 
 In Colab, choose **Runtime → Run all**. Changes are not saved unless you choose **File → Save a copy in Drive**.
 
@@ -17,10 +18,11 @@ In Colab, choose **Runtime → Run all**. Changes are not saved unless you choos
 | Notebook | Content |
 |---|---|
 | `business_cycles.ipynb` | Mainland GDP from SSB. HP and Hamilton filters. Business cycle facts for output, consumption and investment. AR(1) simulation. |
+| `business_cycle_pca.ipynb` | Twelve US series from FRED. Principal component analysis finds one factor that tracks real activity and NBER recessions. |
 
 ## Data
 
-Notebooks download data directly from [Statistics Norway's API](https://www.ssb.no/en/api) (PxWebApi v2) using the helper in `ssb.py`. A snapshot in `data/` is used when the API is unreachable. SSB data are licensed under CC BY 4.0.
+Notebooks download data directly from [Statistics Norway's API](https://www.ssb.no/en/api) (PxWebApi v2) using the helper in `ssb.py`. US data come from [FRED](https://fred.stlouisfed.org). Snapshots in `data/` are used when the sources are unreachable. SSB data are licensed under CC BY 4.0.
 
 ## Running locally
 
